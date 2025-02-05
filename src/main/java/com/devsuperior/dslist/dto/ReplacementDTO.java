@@ -1,5 +1,7 @@
 package com.devsuperior.dslist.dto;
 
+
+//Move Gamelist
 public class ReplacementDTO {
 
 	private Integer sourceIndex;

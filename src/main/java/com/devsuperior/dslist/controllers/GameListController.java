@@ -43,6 +43,7 @@ public class GameListController {
 		GameListDTO result = gameListService.findById(id);
 		return result;
 	}
+	//Game Move
 	@PostMapping(value = "/{listId}/replacement")
 	public void move(@PathVariable Long listId, @RequestBody ReplacementDTO body) {
 		gameListService.move(listId, body.getSourceIndex(), body.getDestinationIndex());
